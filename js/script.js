@@ -6,13 +6,12 @@ $(document).ready(function(){
 	$("#nav-Narafi").click(function(){
 		$("#Narafi").show();
 		$("#Viso").hide();
-        return false;
+        //return false;
 	});
 	
 	$("#nav-Viso").click(function(){
 		$("#Viso").show();
 		$("#Narafi").hide();
-        return false;
 	});
 	
 });
