@@ -87,3 +87,9 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+@media screen and (max-width: 1000px) {
+	body{
+		width: 90%;
+	}
+}
