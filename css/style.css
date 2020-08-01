@@ -27,6 +27,9 @@ nav div{
 	width: 50%;
 	float: left;
 }
+#nav-Viso{
+	text-align: right;
+}
 h1{
 	font-size: 3em;
 	padding: 10px 0;
@@ -55,11 +58,19 @@ article p{
 	padding-left: 3px;
 }
 
-iframe{
-	 width: 560px;
-	 height: 315px; 
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
 }
-
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
