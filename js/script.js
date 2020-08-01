@@ -5,6 +5,7 @@ $(document).ready(function(){
 	
 	$("#nav-Narafi").click(function(){
 		$("#Narafi").show();
+    	//$("#Narafi").fadeIn(1000);
 		$("#Viso").hide();
         return false;
 	});

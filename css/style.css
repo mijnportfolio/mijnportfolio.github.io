@@ -6,10 +6,9 @@ body{
 	background-color: #f3f3f3;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
-	overflow: hidden;
 }
 main{
-	/*background-color: white;*/
+	background-color: white;
 	overflow: hidden;
 }
 header{
@@ -40,8 +39,8 @@ a{
 	color: black;
 }
 a:hover{
-	color: gray;
-}
+	color: #545454;
+}  
 article{
 	margin: 100px 0;
 }
@@ -54,4 +53,18 @@ h4{
 }
 article p{
 	padding-left: 3px;
+}
+
+/*Hide scrollbar*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
