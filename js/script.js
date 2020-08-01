@@ -27,10 +27,10 @@ $(document).ready(function(){
 	      //nav bar to stick.  
 	      console.log($(window).scrollTop())
 	    if ($(window).scrollTop() > 280) {
-	      $('#nav_bar').addClass('navbar-fixed');
+	      $('nav').addClass('navbar-fixed');
 	    }
 	    if ($(window).scrollTop() < 281) {
-	      $('#nav_bar').removeClass('navbar-fixed');
+	      $('nav').removeClass('navbar-fixed');
 	    }
 	  });
 

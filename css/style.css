@@ -16,12 +16,17 @@ header{
 	margin: 150px auto 70px auto;
 	background-color: #f3f3f3;
 	font-weight: 550;
-
+	overflow: hidden;
 }
 nav{
 	width: 100%;
 	font-size: 1.1em;
-	background-color: yellow;
+	background-color: #f3f3f3;
+	border: 0;
+	border-radius: 0px;
+	margin-bottom: 0;
+	padding: 20px 0 30px 0;
+    overflow: hidden;
 }
 nav div{
 	display: block;
@@ -37,6 +42,13 @@ nav div{
   	width: fit-content; 
   	float: right;
 }
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+	position: fixed;
+	width: 40%;
+}
+/*wanneer nav zindex 100 dan moet header extra margin bottom maar ik weet niet hoeveel die nav 50px + letters zijn.*/
 h1{
 	font-size: 3em;
 	padding: 10px 0;
@@ -78,33 +90,6 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-
-
-
-
-
-
-
-
-
-.navbar-fixed {
-    top: 0;
-    z-index: 100;
-	position: fixed;
-}
-#header {
-	overflow: hidden;
-}
-#nav_bar {
-	border: 0;
-	border-radius: 0px;
-	margin-bottom: 0;
-    height: 30px;
-    overflow: hidden;
-}
-
-
-
 
 
 
