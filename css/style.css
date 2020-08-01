@@ -55,6 +55,14 @@ article p{
 	padding-left: 3px;
 }
 
+iframe{
+	 width: 560px;
+	 height: 315px; 
+}
+
+
+
+
 /*Hide scrollbar*/
 html {
     overflow: scroll;
