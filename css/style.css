@@ -21,6 +21,7 @@ header{
 nav{
 	width: 100%;
 	font-size: 1.1em;
+	background-color: yellow;
 }
 nav div{
 	display: block;
@@ -64,12 +65,6 @@ article p{
 	padding-left: 3px;
 }
 
-
-
-
-
-
-
 /*Hide scrollbar*/
 html {
     overflow: scroll;
@@ -83,6 +78,43 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+
+
+
+
+
+
+
+
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+	position: fixed;
+}
+#header {
+	overflow: hidden;
+}
+#nav_bar {
+	border: 0;
+	border-radius: 0px;
+	margin-bottom: 0;
+    height: 30px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
