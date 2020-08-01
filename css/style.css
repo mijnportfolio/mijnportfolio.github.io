@@ -8,7 +8,7 @@ body{
 	font-weight: 500;
 }
 main{
-	background-color: white;
+	/*background-color: white;*/
 	overflow: hidden;
 }
 header{
@@ -26,6 +26,10 @@ nav div{
 	display: block;
 	width: 50%;
 	float: left;
+}
+#nav-left{
+	display: block;
+  	width: fit-content;
 }
 #nav-right{
 	display: block;
@@ -78,6 +82,16 @@ html {
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
+}
+
+
+
+
+
+@media screen and (max-width: 1350px) {
+	body{
+		width: 70%;
+	}
 }
 
 @media screen and (max-width: 1000px) {
