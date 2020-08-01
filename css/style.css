@@ -106,13 +106,13 @@ html {
 
 
 @media screen and (max-width: 1350px) {
-	body{
+	body, .navbar-fixed{
 		width: 70%;
 	}
 }
 
 @media screen and (max-width: 1000px) {
-	body{
+	body, .navbar-fixed{
 		width: 90%;
 	}
 }
