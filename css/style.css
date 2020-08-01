@@ -39,6 +39,9 @@ a{
 	text-decoration: none;
 	color: black;
 }
+a:hover{
+	color: gray;
+}
 article{
 	margin: 100px 0;
 }
