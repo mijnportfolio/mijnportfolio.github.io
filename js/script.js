@@ -16,7 +16,7 @@ $(document).ready(function(){
         return false;
 	});
 
-	$("container").fitVids();
+	$("#container").fitVids();
 	
 });
 
