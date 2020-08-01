@@ -15,6 +15,8 @@ $(document).ready(function(){
 		$("#Narafi").hide();
         return false;
 	});
+
+	$("container").fitVids();
 	
 });
 
