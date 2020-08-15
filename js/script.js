@@ -4,14 +4,13 @@ $(document).ready(function(){
 	// Nav
 	
 	$("#nav-Narafi").click(function(){
-		$("#Narafi").show();
-    	//$("#Narafi").fadeIn(1000);
-		$("#Viso").hide();
+		$("#Viso").fadeOut( 300 ).delay( 1500 );
+		$("#Narafi").fadeIn( 300 );
 	});
 	
 	$("#nav-Viso").click(function(){
-		$("#Viso").show();
-		$("#Narafi").hide();
+		$("#Narafi").fadeOut( 300 ).delay( 1500 );
+		$("#Viso").fadeIn( 300 );
 	});
 
 	$(".container").fitVids();
