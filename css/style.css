@@ -25,7 +25,7 @@ nav{
 	border: 0;
 	border-radius: 0px;
 	margin-bottom: 0px;
-	padding: 20px 0 30px 0;
+	padding: 20px 0 20px 0;
     overflow: hidden;
 }
 nav div{
@@ -54,6 +54,8 @@ nav div{
     z-index: 100;
 	position: fixed;
 	width: 50%;
+
+
 }
 /*wanneer nav zindex 100 dan moet header extra margin bottom maar ik weet niet hoeveel die nav 50px + letters zijn.*/
 h1{
@@ -71,7 +73,7 @@ a:hover{
 	color: #545454;
 }  
 article{
-	margin: 250px 0;
+	margin: 300px 0 200px 0;
 }
 h3{
 	font-size: 1.2em;
