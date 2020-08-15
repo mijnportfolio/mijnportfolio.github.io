@@ -137,7 +137,9 @@ table td{
 
 
 header{
-	background-image: url(https://rscard.px-lab.com/startuper/wp-content/uploads/sites/2/2016/02/rs-cover-2-2-1-1.jpg);
+	background-image: url(../img/52033854_2167962496575360_3602539763824852992_o.jpg);
+  	background-size: cover;
+  	background-position: 0% 67%;
 }
 
 
