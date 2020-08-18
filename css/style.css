@@ -137,26 +137,64 @@ table td{
 
 
 header{
-	background-image: url(../img/52033854_2167962496575360_3602539763824852992_o.jpg);
   	background-size: cover;
   	background-position: 0% 67%;
+  	backface-visibility: hidden;
+  	animation: slide 25s linear infinite 0s;
+  	animation-timing-function: ease-in-out;
+	background-image: url(../img/52033854_2167962496575360_3602539763824852992_o.jpg);
+}
+@keyframes slide{
+	0%{
+		background-image: url('../img/52033854_2167962496575360_3602539763824852992_o.jpg'), url('../img/52033854_2167962496575360_3602539763824852992_o.jpg');
+	}
+	10%{
+		background-image: url('../img/52033854_2167962496575360_3602539763824852992_o.jpg'), url('../img/IMG_20190901_205238.jpg');
+	}
+	20%{
+		background-image: url(../img/IMG_20190901_205238.jpg), url(../img/IMG_20190901_205238.jpg);
+	}
+	30%{
+		background-image: url(../img/IMG_20190901_205238.jpg), url(../img/IMG_20190901_205240.jpg);
+	}
+	40%{
+		background-image: url(../img/IMG_20190901_205240.jpg), url(../img/IMG_20190901_205240.jpg);
+	}
+	50%{
+		background-image: url(../img/IMG_20190901_205240.jpg), url(../img/IMG_20190901_211955.jpg);
+	}
+	60%{
+		background-image: url(../img/IMG_20190901_211955.jpg), url(../img/IMG_20190901_211955.jpg);
+	}
+	70%{
+		background-image: url(../img/IMG_20190901_211955.jpg), url(../img/IMG_20190901_221824.jpg);
+	}
+	80%{
+		background-image: url(../img/IMG_20190901_221824.jpg), url(../img/IMG_20190901_221824.jpg);
+	}
+	90%{
+		background-image: url(../img/IMG_20190901_221824.jpg), url('../img/52033854_2167962496575360_3602539763824852992_o.jpg');
+	}
+	100%{
+		background-image: url('../img/52033854_2167962496575360_3602539763824852992_o.jpg'), url('../img/52033854_2167962496575360_3602539763824852992_o.jpg');
+	}
 }
 
-
 .com{
-        position: relative;
-    }
-    .box2{
-        width: 50%;
-        height: 100%;            
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .stack-top{
-        z-index: 9;
-        margin: 200px 25%;
-    }
+	position: relative;
+}
+.box2{
+	width: 50%;
+	height: 100%;            
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.stack-top{
+	z-index: 9;
+	margin: 200px 25%;
+}
+
 
 
 
