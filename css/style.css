@@ -204,7 +204,8 @@ header{
 .overlayer{
 	width: 100%;
 	background-color: red;
-	padding: 250px;
+	padding: 50px;
+	text-align: center;
 }
 
 
